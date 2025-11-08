@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chris Selvera — Finance Transformation Consultant</title>
+  <meta name="description" content="Finance transformation, data & AI, and Python-enabled automation portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="brand">
+        <img src="assets/logo.svg" alt="Agentic AI Labs Logo" class="logo" />
+        <span>Chris Selvera</span>
+      </a>
+      <button id="menuBtn" aria-label="Toggle menu">☰</button>
+      <ul id="navList">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero__content">
+      <h1>Finance Transformation Leader<br><span class="accent">who speaks Python</span></h1>
+      <p class="subtitle">I help organizations modernize Quote‑to‑Cash, FP&amp;A, and financial data ops with automation, analytics, and pragmatic AI.</p>
+      <div class="cta">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="python_demos/README_run.md" class="btn ghost">Run Python Demos</a>
+      </div>
+      <div class="meta">
+        <span>ERP &amp; Finance Systems • Q2C/O2C • Process Mining • Power BI • Python</span>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="about split">
+      <div class="col">
+        <h2>About</h2>
+        <p>I'm a finance transformation consultant who bridges <strong>people, process, and technology</strong>. I’ve led modernization across COA governance, payroll &amp; fringe automation, partner revenue attribution, and data‑driven PMO.</p>
+        <p>My approach: start with business outcomes, streamline the process, then layer data &amp; automation—so value shows up fast and scales.</p>
+      </div>
+      <div class="col card">
+        <h3>In Practice</h3>
+        <ul class="checklist">
+          <li>Quote‑to‑Cash optimization (deal desk, CPQ, revenue ops)</li>
+          <li>Financial reporting automation (Python + Power BI)</li>
+          <li>Budget &amp; forecast modeling with transparent assumptions</li>
+          <li>KPI frameworks &amp; executive dashboards (OKR alignment)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <div class="filters">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="python">Python</button>
+          <button class="pill" data-filter="analytics">Analytics</button>
+          <button class="pill" data-filter="process">Process</button>
+        </div>
+      </div>
+      <div id="projectGrid" class="grid"></div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="badge-row">
+        <span class="badge">Q2C / O2C</span>
+        <span class="badge">RevOps</span>
+        <span class="badge">Process Mining</span>
+        <span class="badge">Power BI</span>
+        <span class="badge">Python</span>
+        <span class="badge">Pandas</span>
+        <span class="badge">Databricks</span>
+        <span class="badge">SQL</span>
+        <span class="badge">OKRs / KPI Design</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact card">
+      <h2>Contact</h2>
+      <p>Open to senior roles and consulting engagements in Finance Transformation, PMO &amp; Operations, and AI‑assisted finance systems.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:chris@agenticailabs.com">chris@agenticailabs.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chrisselvera" target="_blank" rel="noopener">linkedin.com/in/chrisselvera</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/Agentic-AI-Labs" target="_blank" rel="noopener">Agentic-AI-Labs</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Chris Selvera · Agentic AI Labs</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
