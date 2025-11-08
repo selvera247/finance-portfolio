@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "title": "Financial Reporting Automation (Python \u2192 Power BI)",
+      "blurb": "End-to-end pipeline using Python (pandas) to clean GL extracts, build KPI tables, and publish to a Power BI semantic model with refresh-ready CSVs.",
+      "tags": [
+        "python",
+        "analytics"
+      ],
+      "links": [
+        {
+          "label": "Code (Streamlit demo)",
+          "href": "python_demos/README_run.md"
+        },
+        {
+          "label": "Design Notes",
+          "href": "https://example.com"
+        }
+      ]
+    },
+    {
+      "title": "Budget Forecasting Dashboard",
+      "blurb": "Driver-based forecast with scenario toggles (Baseline/Stretch/Conservative), rolling 12\u2011mo view, and variance analysis\u2014ready for exec reviews.",
+      "tags": [
+        "analytics"
+      ],
+      "links": [
+        {
+          "label": "Mock Data + PBIX",
+          "href": "https://example.com"
+        },
+        {
+          "label": "Methodology",
+          "href": "https://example.com"
+        }
+      ]
+    },
+    {
+      "title": "Q2C Process Transformation",
+      "blurb": "Partner-to-Cash flow: deal registration, CPQ approvals, localized invoicing, and KPI governance. Includes RACI, critical paths, and risk controls.",
+      "tags": [
+        "process"
+      ],
+      "links": [
+        {
+          "label": "Case Summary PDF",
+          "href": "https://example.com"
+        },
+        {
+          "label": "KPI Framework",
+          "href": "https://example.com"
+        }
+      ]
+    }
+  ]
+}
