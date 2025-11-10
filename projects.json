@@ -20,8 +20,6 @@
         { "label": "SOP / Governance", "href": "https://your-link-to-pdf-or-notion" }
       ]
     },
-
-    /* keep your existing items below, unchanged */
     {
       "title": "Financial Reporting Automation (Python → Power BI)",
       "blurb": "Python cleanup → KPI tables → refresh-ready CSVs powering a Power BI model.",
