@@ -13,7 +13,6 @@
       "outcome": "Standardized COA and automated exception detection with owner-based remediation.",
       "stack": ["Postgres SQL", "Power BI (DAX)", "ERP GL"],
       "date": "2025",
-      "image": "assets/proj_coa.png",
       "links": [
         { "label": "SQL Validation Views", "href": "https://your-link-to-gist-or-repo/sql" },
         { "label": "PBI Dashboard (Screenshot)", "href": "https://your-link-to-image-or-readme" },
