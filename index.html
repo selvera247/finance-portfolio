@@ -1,23 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chris Selvera — Finance Transformation Consultant</title>
-  <meta name="description" content="Finance transformation, data & AI, and Python-enabled automation portfolio." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chris Selvera — Finance Transformation</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="site-header">
     <nav class="nav">
-      <a href="#hero" class="brand">
-        <img src="assets/logo.svg" alt="Agentic AI Labs Logo" class="logo" />
+      <div class="brand">
+        <img class="logo" src="assets/logo.svg" alt="" />
         <span>Chris Selvera</span>
-      </a>
-      <button id="menuBtn" aria-label="Toggle menu">☰</button>
+      </div>
+      <button id="menuBtn">Menu</button>
       <ul id="navList">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -27,36 +24,26 @@
     </nav>
   </header>
 
-  <section id="hero" class="hero">
+  <section class="hero">
     <div class="hero__content">
-      <h1>Finance Transformation Leader<br><span class="accent">who speaks Python</span></h1>
-      <p class="subtitle">I help organizations modernize Quote‑to‑Cash, FP&amp;A, and financial data ops with automation, analytics, and pragmatic AI.</p>
+      <h1>Finance Transformation <span class="accent">Consultant</span></h1>
+      <p class="subtitle">I bridge finance, process, and Python/analytics to modernize reporting, forecasting, and Q2C operations.</p>
       <div class="cta">
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="python_demos/README_run.md" class="btn ghost">Run Python Demos</a>
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn ghost" href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">GitHub</a>
       </div>
-      <div class="meta">
-        <span>ERP &amp; Finance Systems • Q2C/O2C • Process Mining • Power BI • Python</span>
-      </div>
+      <div class="meta">Portfolio • Deployed on Cloudflare</div>
     </div>
   </section>
 
   <main>
-    <section id="about" class="about split">
-      <div class="col">
-        <h2>About</h2>
-        <p>I'm a finance transformation consultant who bridges <strong>people, process, and technology</strong>. I’ve led modernization across COA governance, payroll &amp; fringe automation, partner revenue attribution, and data‑driven PMO.</p>
-        <p>My approach: start with business outcomes, streamline the process, then layer data &amp; automation—so value shows up fast and scales.</p>
-      </div>
-      <div class="col card">
-        <h3>In Practice</h3>
-        <ul class="checklist">
-          <li>Quote‑to‑Cash optimization (deal desk, CPQ, revenue ops)</li>
-          <li>Financial reporting automation (Python + Power BI)</li>
-          <li>Budget &amp; forecast modeling with transparent assumptions</li>
-          <li>KPI frameworks &amp; executive dashboards (OKR alignment)</li>
-        </ul>
-      </div>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <ul class="checklist">
+        <li>Financial reporting automation (Python + Power BI)</li>
+        <li>Budget &amp; forecast modeling with transparent assumptions</li>
+        <li>KPI frameworks &amp; executive dashboards (OKR alignment)</li>
+      </ul>
     </section>
 
     <section id="projects" class="projects">
@@ -69,10 +56,12 @@
           <button class="pill" data-filter="process">Process</button>
         </div>
       </div>
+
+      <!-- Project cards will render here -->
       <div id="projectGrid" class="grid"></div>
     </section>
 
-    <section id="skills" class="skills">
+    <section id="skills" class="card skills">
       <h2>Skills</h2>
       <div class="badge-row">
         <span class="badge">Q2C / O2C</span>
@@ -87,21 +76,26 @@
       </div>
     </section>
 
-    <section id="contact" class="contact card">
+    <section id="contact" class="card contact">
       <h2>Contact</h2>
-      <p>Open to senior roles and consulting engagements in Finance Transformation, PMO &amp; Operations, and AI‑assisted finance systems.</p>
       <ul class="contact-list">
-        <li><strong>Email:</strong> <a href="mailto:chris@agenticailabs.com">chris@agenticailabs.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chrisselvera" target="_blank" rel="noopener">linkedin.com/in/chrisselvera</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/Agentic-AI-Labs" target="_blank" rel="noopener">Agentic-AI-Labs</a></li>
+        <li><a href="mailto:you@domain.com">you@domain.com</a></li>
+        <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a></li>
       </ul>
     </section>
   </main>
 
   <footer class="site-footer">
-    <small>© <span id="year"></span> Chris Selvera · Agentic AI Labs</small>
+    © <span id="year"></span> Chris Selvera • finance-portfolio
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    // small nav + year helper
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const menuBtn = document.getElementById('menuBtn');
+    const navList = document.getElementById('navList');
+    if (menuBtn && navList) menuBtn.addEventListener('click', ()=>navList.classList.toggle('show'));
+  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
