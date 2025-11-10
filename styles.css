@@ -72,8 +72,11 @@ main{max-width:1100px;margin:0 auto;padding:28px 16px}
 }
 .project{
   background:var(--card);border:1px solid rgba(255,255,255,.06);
-  border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px
+  border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;
+  overflow:hidden;transition:transform .18s ease, box-shadow .18s ease;
 }
+.project:hover{ transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+
 .project h3{margin:0}
 .project .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
 .tag{font-size:12px;padding:4px 8px;background:#ffffff10;border:1px solid rgba(255,255,255,.1);border-radius:999px}
@@ -96,53 +99,15 @@ main{max-width:1100px;margin:0 auto;padding:28px 16px}
   #navList.show{display:block}
   .grid{grid-template-columns:1fr}
 }
-/* ---- Project card enhancements (images, date badge, metrics list) ---- */
 
-.project { overflow: hidden; transition: transform .18s ease, box-shadow .18s ease; }
-.project:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.25); }
-
-.project .thumb {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 10px;
-  display: block;
-}
-
-.project .project-body { display: flex; flex-direction: column; gap: 8px; }
-
-.project .project-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.date-badge {
-  font-size: 12px;
-  padding: 4px 8px;
-  border: 1px solid rgba(255,255,255,.12);
-  border-radius: 999px;
-  color: var(--muted);
-  white-space: nowrap;
-}
-
-.metrics { margin: 0; padding-left: 18px; }
-.metrics li { margin: 2px 0; }
-
-.stack {
-  font-size: 12px;
-  opacity: .9;
-}
-
-.cta-row { margin-top: 8px; display: flex; gap: 10px; flex-wrap: wrap; }
-
-/* Optional subtle focus styles for keyboard users */
-.btn:focus,
-.pill:focus,
-a:focus { outline: 2px solid #66c4ff88; outline-offset: 2px; }
-
-/* Responsive tweak for card thumbnails on small screens */
-@media (max-width: 640px) {
-  .project .thumb { height: 160px; }
-}
+/* ---- Project card enhancements (image, date, metrics) ---- */
+.project .thumb{width:100%;height:140px;object-fit:cover;border-radius:10px;display:block}
+.project .project-body{display:flex;flex-direction:column;gap:8px}
+.project .project-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.date-badge{font-size:12px;padding:4px 8px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:var(--muted);white-space:nowrap}
+.metrics{margin:0;padding-left:18px}
+.metrics li{margin:2px 0}
+.stack{font-size:12px;opacity:.9}
+.cta-row{margin-top:8px;display:flex;gap:10px;flex-wrap:wrap}
+.btn:focus,.pill:focus,a:focus{outline:2px solid #66c4ff88;outline-offset:2px}
+@media (max-width:640px){ .project .thumb{height:160px} }
