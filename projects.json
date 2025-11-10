@@ -2,73 +2,26 @@
   "projects": [
     {
       "title": "Financial Reporting Automation (Python → Power BI)",
-      "blurb": "End-to-end pipeline using Python (pandas) to clean GL extracts, build KPI tables, and publish to a Power BI semantic model with refresh-ready CSVs.",
+      "blurb": "Python cleanup → KPI tables → refresh-ready CSVs powering a Power BI model.",
       "tags": ["python", "analytics"],
-      "metrics": ["-65% reporting cycle time", "Single-source KPI table", "Power BI auto-refresh"],
-      "outcome": "Faster monthly close with transparent, auditable KPI creation.",
-      "stack": ["Python", "Pandas", "Power BI"],
-      "date": "2025",
-      "image": "assets/proj_fin_reporting.png",
       "links": [
-        { "label": "Code (GitHub)", "href": "https://github.com/<you>/<repo>/tree/main/python_demos" },
-        { "label": "Run Instructions", "href": "python_demos/README_run.md" },
-        { "label": "Architecture (PDF)", "href": "https://<your-public-pdf>" }
+        { "label": "Code (GitHub)", "href": "https://github.com/your-username/your-repo/tree/main/python_demos" }
       ]
     },
     {
       "title": "Budget Forecasting Dashboard",
-      "blurb": "Driver-based forecast with scenario toggles (Baseline/Stretch/Conservative), rolling 12-mo view, and variance analysis—ready for exec reviews.",
+      "blurb": "Driver-based scenarios, rolling 12-mo, variance view for execs.",
       "tags": ["analytics"],
-      "metrics": ["Scenario toggles", "Rolling 12-mo", "Variance view"],
-      "outcome": "Stakeholders can self-serve forecast scenarios and explain variances.",
-      "stack": ["Power BI", "Python (optional)"],
-      "date": "2025",
-      "image": "assets/proj_budget.png",
       "links": [
-        { "label": "PBIX / Mock Data", "href": "https://<public-share-or-gist>" },
-        { "label": "Methodology", "href": "https://<your-notion-or-pdf>" }
+        { "label": "PBIX / Mock Data", "href": "https://example.com" }
       ]
     },
     {
       "title": "Q2C Process Transformation",
-      "blurb": "Partner-to-Cash flow: deal registration, CPQ approvals, localized invoicing, and KPI governance. Includes RACI, critical paths, and risk controls.",
+      "blurb": "Deal reg → CPQ approvals → localized invoicing → KPI governance.",
       "tags": ["process"],
-      "metrics": ["Approval SLA ↓", "SOX-ready audit trail", "Partner adoption ↑"],
-      "outcome": "Fewer manual handoffs, faster velocity, clearer ownership.",
-      "stack": ["Salesforce", "CPQ", "NetSuite", "Ironclad", "Tableau"],
-      "date": "2025",
-      "image": "assets/proj_q2c.png",
       "links": [
-        { "label": "Case Summary PDF", "href": "https://<your-case-pdf>" },
-        { "label": "KPI Framework", "href": "https://<your-kpi-pdf>" }
-      ]
-    },
-    {
-      "title": "Databricks OKR Engine (Finance PMO)",
-      "blurb": "Lightweight OKR store with SQL views, exec rollups, and ambiguity-proof joins; focuses on owner clarity and unambiguous metrics.",
-      "tags": ["analytics", "process"],
-      "metrics": ["Owner clarity ↑", "KR ambiguity ↓", "1-page exec rollup"],
-      "outcome": "Consistent reporting and faster decision cycles.",
-      "stack": ["Databricks SQL", "Power BI"],
-      "date": "2025",
-      "image": "assets/proj_okr.png",
-      "links": [
-        { "label": "Notebook Snapshot (PDF)", "href": "https://<your-notebook-pdf>" },
-        { "label": "Data Model", "href": "https://<your-model-pdf-or-notion>" }
-      ]
-    },
-    {
-      "title": "YouTube → Transcript → Summary (Automation)",
-      "blurb": "Pipeline to ingest educational videos, generate transcripts, and summarize by speaker/topic with a future AI indexing layer.",
-      "tags": ["python"],
-      "metrics": ["Batch ingest", "Topic summaries", "Exportable corpus"],
-      "outcome": "Reusable content corpus for search/insights.",
-      "stack": ["Python", "yt-dlp", "Whisper/OpenAI"],
-      "date": "2025",
-      "image": "assets/proj_transcript.png",
-      "links": [
-        { "label": "Code (GitHub)", "href": "https://github.com/<you>/<repo>/tree/main/<folder>" },
-        { "label": "Demo Notes", "href": "https://<your-notes>" }
+        { "label": "Case Summary PDF", "href": "https://example.com" }
       ]
     }
   ]
