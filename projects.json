@@ -20,30 +20,6 @@
       ]
     },
     {
-      "title": "Financial Reporting Automation (Python → Power BI)",
-      "blurb": "Python cleanup → KPI tables → refresh-ready CSVs powering a Power BI model.",
-      "tags": ["python", "analytics"],
-      "links": [
-        { "label": "Code (GitHub)", "href": "https://github.com/your-username/your-repo/tree/main/python_demos" }
-      ]
-    },
-    {
-      "title": "Budget Forecasting Dashboard",
-      "blurb": "Driver-based scenarios, rolling 12-mo, variance view for execs.",
-      "tags": ["analytics"],
-      "links": [
-        { "label": "PBIX / Mock Data", "href": "https://example.com" }
-      ]
-    },
-    {
-      "title": "Q2C Process Transformation",
-      "blurb": "Deal reg → CPQ approvals → localized invoicing → KPI governance.",
-      "tags": ["process"],
-      "links": [
-        { "label": "Case Summary PDF", "href": "https://example.com" }
-      ]
-    },
-    {
       "title": "Revenue Intake Pipeline (Cloudflare Pages → Workers → D1 → Jira)",
       "blurb": "End-to-end revenue project intake: form submission routes through Cloudflare Pages and Workers to validate inputs, calculate a priority score, persist into D1, optionally store attachments in R2, and auto-create Jira tasks with an export-ready analytics endpoint.",
       "tags": ["cloudflare", "automation", "jira", "intake", "data"],
@@ -67,6 +43,30 @@
         { "label": "Live Intake Form", "href": "https://ae0449ed.revenue-intake-app.pages.dev" },
         { "label": "Worker Endpoint", "href": "https://intake.selveracj.workers.dev" },
         { "label": "CSV Export API", "href": "https://intake.selveracj.workers.dev/api/export" }
+      ]
+    },
+    {
+      "title": "Financial Reporting Automation (Python → Power BI)",
+      "blurb": "Python cleanup → KPI tables → refresh-ready CSVs powering a Power BI model.",
+      "tags": ["python", "analytics"],
+      "links": [
+        { "label": "Code (GitHub)", "href": "https://github.com/your-username/your-repo/tree/main/python_demos" }
+      ]
+    },
+    {
+      "title": "Budget Forecasting Dashboard",
+      "blurb": "Driver-based scenarios, rolling 12-mo, variance view for execs.",
+      "tags": ["analytics"],
+      "links": [
+        { "label": "PBIX / Mock Data", "href": "https://example.com" }
+      ]
+    },
+    {
+      "title": "Q2C Process Transformation",
+      "blurb": "Deal reg → CPQ approvals → localized invoicing → KPI governance.",
+      "tags": ["process"],
+      "links": [
+        { "label": "Case Summary PDF", "href": "https://example.com" }
       ]
     }
   ]
