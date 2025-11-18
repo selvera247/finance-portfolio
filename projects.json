@@ -42,6 +42,32 @@
       "links": [
         { "label": "Case Summary PDF", "href": "https://example.com" }
       ]
+    },
+    {
+      "title": "Revenue Intake Pipeline (Cloudflare Pages → Workers → D1 → Jira)",
+      "blurb": "End-to-end revenue project intake: form submission routes through Cloudflare Pages and Workers to validate inputs, calculate a priority score, persist into D1, optionally store attachments in R2, and auto-create Jira tasks with an export-ready analytics endpoint.",
+      "tags": ["cloudflare", "automation", "jira", "intake", "data"],
+      "metrics": [
+        "100% automated intake-to-Jira flow",
+        "Near-instant Jira ticket creation",
+        "Zero manual rekeying from form to Jira",
+        "Analytics-ready CSV export for Power BI"
+      ],
+      "outcome": "Production-style intake→Jira→data pipeline that standardizes how revenue projects are requested, triaged, and analyzed, giving finance and RevOps a single source of truth for backlog and prioritization.",
+      "stack": [
+        "Cloudflare Pages",
+        "Cloudflare Workers (TypeScript)",
+        "D1 Database",
+        "R2 Storage",
+        "Jira REST API",
+        "CSV export → Power BI"
+      ],
+      "date": "2025",
+      "links": [
+        { "label": "Live Intake Form", "href": "https://ae0449ed.revenue-intake-app.pages.dev" },
+        { "label": "Worker Endpoint", "href": "https://intake.selveracj.workers.dev" },
+        { "label": "CSV Export API", "href": "https://intake.selveracj.workers.dev/api/export" }
+      ]
     }
   ]
 }
