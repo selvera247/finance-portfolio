@@ -29,7 +29,7 @@
     {
       "title": "COA Modernization (Postgres SQL → DAX → Power BI)",
       "blurb": "Golden COA with governed combinations, SQL validation views, and a Power BI compliance dashboard tracking exceptions and close readiness.",
-      "tags": ["analytics", "process", "python"],
+      "tags": ["analytics", "process", "SQL"],
       "metrics": [
         "Invalid COA combination usage ↓ 85%",
         "COA compliance rate ↑ from 60% → 95%"
