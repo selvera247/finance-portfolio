@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "title": "COA Modernization (Postgres SQL → DAX → Power BI)",
-      "blurb": "Golden COA with governed combinations, SQL validation views, and a Power BI compliance dashboard tracking exceptions and close readiness.",
-      "tags": ["analytics", "process", "python"],
-      "metrics": [
-        "Exception rate ↓ 70%",
-        "Reclass volume ↓ 45%",
-        "Close time ↓ 1–2 days",
-        "SOX evidence automated"
-      ],
-      "outcome": "Standardized COA and automated exception detection with owner-based remediation.",
-      "stack": ["Postgres SQL", "Power BI (DAX)", "ERP GL"],
-      "date": "2025",
-      "links": [
-        { "label": "SQL Validation Views", "href": "https://your-link-to-gist-or-repo/sql" },
-        { "label": "PBI Dashboard (Screenshot)", "href": "https://your-link-to-image-or-readme" },
-        { "label": "SOP / Governance", "href": "https://your-link-to-pdf-or-notion" }
-      ]
-    },
-    {
       "title": "Revenue Intake Pipeline (Cloudflare Pages → Workers → D1 → Jira)",
       "blurb": "End-to-end revenue project intake: form submission routes through Cloudflare Pages and Workers to validate inputs, calculate a priority score, persist into D1, optionally store attachments in R2, and auto-create Jira tasks with an export-ready analytics endpoint.",
       "tags": ["cloudflare", "automation", "jira", "intake", "data"],
@@ -46,28 +27,31 @@
       ]
     },
     {
-      "title": "Financial Reporting Automation (Python → Power BI)",
-      "blurb": "Python cleanup → KPI tables → refresh-ready CSVs powering a Power BI model.",
-      "tags": ["python", "analytics"],
+      "title": "COA Modernization (Postgres SQL → DAX → Power BI)",
+      "blurb": "Golden COA with governed combinations, SQL validation views, and a Power BI compliance dashboard tracking exceptions and close readiness.",
+      "tags": ["analytics", "process", "python"],
+      "metrics": [
+        "Invalid COA combination usage ↓ 85%",
+        "COA compliance rate ↑ from 60% → 95%"
+      ],
+      "outcome": "Standardized COA with automated rule enforcement, reducing rework and improving data quality across reporting models.",
+      "stack": ["Postgres SQL", "Power BI (DAX)", "ERP GL"],
+      "date": "2025",
       "links": [
-        { "label": "Code (GitHub)", "href": "https://github.com/your-username/your-repo/tree/main/python_demos" }
+        { "label": "SQL Validation Views", "href": "https://your-link-to-gist-or-repo/sql" },
+        { "label": "PBI Dashboard (Screenshot)", "href": "https://your-link-to-image-or-readme" },
+        { "label": "SOP / Governance", "href": "https://your-link-to-pdf-or-notion" }
       ]
     },
     {
-      "title": "Budget Forecasting Dashboard",
-      "blurb": "Driver-based scenarios, rolling 12-mo, variance view for execs.",
-      "tags": ["analytics"],
-      "links": [
-        { "label": "PBIX / Mock Data", "href": "https://example.com" }
-      ]
-    },
-    {
-      "title": "Q2C Process Transformation",
-      "blurb": "Deal reg → CPQ approvals → localized invoicing → KPI governance.",
-      "tags": ["process"],
-      "links": [
-        { "label": "Case Summary PDF", "href": "https://example.com" }
-      ]
+      "title": "Account Reconciliation Automation (Month-End Close)",
+      "blurb": "COMING SOON — Automated reconciliation rules, exception detection, and supporting evidence generation.",
+      "tags": ["automation", "month-end", "accounting"],
+      "metrics": [],
+      "outcome": "Placeholder — will capture month-end automation framework.",
+      "stack": ["Python", "SQL", "Power BI", "ERP Subledgers"],
+      "date": "2025",
+      "links": []
     }
   ]
 }
