@@ -23,7 +23,7 @@
       "links": [
         { "label": "Live Intake Form", "href": "https://ae0449ed.revenue-intake-app.pages.dev" },
         { "label": "Worker Endpoint", "href": "https://intake.selveracj.workers.dev" },
-        { "label": "CSV Export API", "href": "https://intake.selveracj.workers.dev/api/export" }
+        { "label": "PBI Dashboard", "href": "capture.png" }
       ]
     },
     {
